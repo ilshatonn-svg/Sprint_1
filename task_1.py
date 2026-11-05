@@ -21,5 +21,3 @@ for schet in half:
         if 's' in part:
             seconds = int(part.replace('s', ''))
             total = total + seconds // 60
-
-print(total)
